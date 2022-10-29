@@ -10,6 +10,9 @@ import { HardNSoftSkillsComponent } from './components/hard-n-soft-skills/hard-n
 import { AboutComponent } from './components/about/about.component';
 import { ProyectComponent } from './components/proyect/proyect.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { APLogoComponent } from './components/header/ap-logo/ap-logo.component';
+import { SocialComponent } from './components/header/social/social.component';
+import { BannerComponent } from './components/header/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { FooterComponent } from './components/footer/footer.component';
     HardNSoftSkillsComponent,
     AboutComponent,
     ProyectComponent,
-    FooterComponent
+    FooterComponent,
+    APLogoComponent,
+    SocialComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
