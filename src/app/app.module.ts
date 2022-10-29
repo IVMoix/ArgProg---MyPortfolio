@@ -13,6 +13,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { APLogoComponent } from './components/header/ap-logo/ap-logo.component';
 import { SocialComponent } from './components/header/social/social.component';
 import { BannerComponent } from './components/header/banner/banner.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HysSkillsComponent } from './components/hys-skills/hys-skills.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +28,13 @@ import { BannerComponent } from './components/header/banner/banner.component';
     FooterComponent,
     APLogoComponent,
     SocialComponent,
-    BannerComponent
+    BannerComponent,
+    HysSkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
