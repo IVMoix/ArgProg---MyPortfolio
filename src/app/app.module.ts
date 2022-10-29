@@ -14,7 +14,6 @@ import { APLogoComponent } from './components/header/ap-logo/ap-logo.component';
 import { SocialComponent } from './components/header/social/social.component';
 import { BannerComponent } from './components/header/banner/banner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
-import { HysSkillsComponent } from './components/hys-skills/hys-skills.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +28,6 @@ import { HysSkillsComponent } from './components/hys-skills/hys-skills.component
     APLogoComponent,
     SocialComponent,
     BannerComponent,
-    HysSkillsComponent
   ],
   imports: [
     BrowserModule,
